@@ -8,5 +8,5 @@ import { addNewAsk,deleteAsk,myAsk } from "../../controller/user/ask.controller"
 import { verifyUser } from "../../helper/verifyUser";
 askRoutes.post('/add-ask',verifyToken,addNewAsk);
 askRoutes.delete('/delete-ask/:id',verifyToken,deleteAsk);
-askRoutes.get('/myask',verifyUser,verifyToken,myAsk)
+askRoutes.get('/myask',verifyToken,myAsk)
 export default askRoutes;
