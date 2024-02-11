@@ -14,8 +14,8 @@
     "nodemailer": "^6.9.8",
     "path": "^0.12.7",
     "randomstring": "^1.3.0",
-    "ts-node": "^10.9.2",
-    "type":"commonjs"
+    "ts-node": "^10.9.2"
+
   },
   "name": "typescript-2",
   "version": "1.0.0",
