@@ -1,7 +1,7 @@
 import mongoose from 'mongoose';
 import express,{Request,Response} from 'express';
 import { verifyToken } from '../../helper/verifyToken';
-import { verifyAdmin } from '../../helper/verifyAdmin';
+
 import IProfile from '../../model/profile.model';
 import { IUser } from '../../model/user.model';
 import UserCollection from '../../schema/user.schema';

@@ -1,7 +1,7 @@
 import { Router } from 'express';
 import express from 'express';
 const admin = express.Router();
-import { verifyAdmin } from '../../helper/verifyAdmin';
+
 import { verifyToken } from '../../helper/verifyToken';
 import adminRoutes from './admin.routes';
 
