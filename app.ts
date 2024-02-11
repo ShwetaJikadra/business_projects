@@ -29,7 +29,7 @@ main()
   .catch(() => console.log('Internal server error'));
   app.use(express.json());
   app.get("/", (req, res) => {
-    res.json({ message: "Welcome to MyTypescript Application." });
+    res.send("<h1>Welcome to MyTypescript Application.</h1>");
   });
   app.use('/api',user);
   app.use('/api/admin',admin)
