@@ -1,7 +1,7 @@
 {
   "dependencies": {
     "@types/bcrypt": "^5.0.2",
-    "@types/nodemailer": "^6.4.14",
+    "@types/nodemailer": "^6.4.17",
     "@types/randomstring": "^1.1.11",
     "bcrypt": "^5.1.1",
     "body-parser": "^1.20.2",
